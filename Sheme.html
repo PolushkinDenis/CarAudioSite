@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Схема</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/services.css" />
+
+    <script src="./js/header.js"></script>
+    <script src="./js/scheme.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="main">
+            <a class="logo" href="./index.html">Главная</a>
+        </div>
+        <div class="links">
+            <ul class="headerUrl">
+                <li class="mega-menu"><label><input type="checkbox" id="megamenu"
+                            onchange="fun1()">Производители</label>
+                    <div class="link-proizvoditeli" id="linkproizvoditeli">
+                        <ul class="ul-proizvoditeli">
+                            <li><a href="Alfard.html"><img src="./img/proizvoditel_1.1.jpg" alt="DeafBonce"></a></li>
+                            <li><a href="Pride.html"><img src="./img/proizvoditel_2.1.jpg" alt="Pride"></a></li>
+                            <li><a href="Ural.html"><img src="./img/proizvoditel_3.jpg" alt="Ural"></a></li>
+                        </ul>
+                    </div>
+                    </a>
+                </li>
+                <li><a href="./Serviсes.html">Сервисы</a></li>
+                <li><a href="./Contact.html">Контакты</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="section_3">
+        <h2>СХЕМЫ ПОДКЛЮЧЕНИЯ САБВУФЕРОВ (КАК ПОДКЛЮЧИТЬ САБВУФЕР С КАТУШКАМИ 1/2/4+1/2/4 ОМ)</h2>
+        <div class="shema">
+            <h3>СХЕМА ПОДКЛЮЧЕНИЯ САБВУФЕРОВ</h3>
+            <div class="form">
+                <label>Количество сабвуферов</label>
+                </label><select id="sab" onchange="checkImpendans()">
+                    <option value="1">1 сабвуфер</option>
+                    <option value="2">2 сабвуфера</option>
+                    <option value="3">3 сабвуфера</option>
+                    <option value="4">4 сабвуфера</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Сопротивление катушек у сабвуферов</label>
+                <select id="impendans" onchange="checkImpendans();">
+                    <option value="1">1 Ом</option>
+                    <option value="2">2 Ом</option>
+                    <option value="4">4 Ом</option>
+                </select></label>
+                <label>(например, 1х1 означает две катушки по 1 Ом каждая)</label>
+            </div>
+
+            <div class="shema_images">
+                <img className="imgScheme" id="scheme" src="./img/1_1.jpg" onclick="show();">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">×</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="vk">
+            <P>Контакты: </P>
+            <a href="https://vk.com/denispolushkin" target="_blank"><img src="./img/vk.png" alt="VK" /></a>
+            <a href="https://www.youtube.com/channel/UCvYauFvNOQZ-6O2QnUSdGug" target="_blank"><img
+                    src="./img/youtube.png" alt="VK" /></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>

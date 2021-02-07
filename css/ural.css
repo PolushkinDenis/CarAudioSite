@@ -1,0 +1,99 @@
+
+.header{
+    position: relative;
+}
+.ural{
+    color: white;
+    background-color: black;
+}
+
+.zagolovok h1{
+    text-align: center;
+    font-size: 300%;
+    width: 100%;
+}
+.section_1{
+    min-height: 90ch;
+    background-image: url(../img/ural_about_1.1.jpg);
+    background-repeat: repeat-x;
+}
+.section_1_text_1{
+    position: absolute;
+    margin-top: 10%;
+    width: 30%;
+    font-size: 150%;
+    text-align: center;
+}
+.section_1_text_2{
+    margin-top: 18%;
+    position: absolute;
+    width: 50%;
+    font-size: 150%;
+    margin-left: 3%;
+}
+.section_2{
+    margin-top: 3%;
+    margin-left: 3%;
+    min-height: 70ch;
+
+}
+.section_2 h2{
+    font-size: 200%;
+    margin-left: 10%;
+}
+.section_2_content{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    margin-bottom: 3%;
+
+}
+.section_2_content h3{
+    margin-top: 10%;
+}
+.section_2_content p{
+    color: rgb(77, 77, 77);
+}
+
+.section_3_1{
+    min-height: 50ch;
+    background-image: url(../img/fon_19.jpg);
+    background-position: right;
+}
+.section_3_1_text{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 32%;
+    color: white;
+}
+.section_3_1_text h2{
+    font-size: 200%;
+    border: 5px;
+    border-color: black;
+}
+.section_3{
+    min-height: 40ch;
+    background-image: url(../img/fon_18.jpg);
+    background-position: top;
+    color: white;
+}
+.section_3_text{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+}
+.section_3_content{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.section_3_content h3{
+    margin-top: 10%;
+}
+.section_3_content p{
+    color: rgb(77, 77, 77);
+}

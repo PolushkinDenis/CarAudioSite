@@ -1,0 +1,89 @@
+.header{
+    position: relative;
+}
+
+.project{
+    color: white;
+    background-color: black;
+}
+.project h1{
+    font-size: 250%;
+    margin-left: 40%;
+}
+.zagolovok{
+}
+.section_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    min-height: 90ch;
+    background-color: black;
+    background-image: url(../img/fon_8.jpg);
+}
+.section_1_text{
+    margin: 10%;
+}
+.section_1_text p{
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.section_1_text ul{
+    list-style-type: none;
+    margin-top: 20%;
+}
+.section_1_text li{
+    margin: 10px;
+}
+.section_1 h2{
+    font-size: 200%;
+    margin: 10px;
+}
+
+.section_1 img{
+
+}
+.img_1{
+    width: 40%;
+}
+
+.section_2{
+    background-image: url(../img/fon_15.jpg);
+    background-position: left bottom;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    min-height: 90ch;
+    background-color: black;
+}
+.section_2_text{
+    margin-top: 40%;
+}
+.section_2_text p{
+    margin-top: 40px;
+}
+.section_2_text ul{
+    list-style-type: none;
+    margin-top: 20%;
+}
+.section_2_text li{
+    margin: 10px;
+}
+.section_2_text_2{
+    font-size: 150%;
+    margin-bottom: 4%;
+}
+.section_2 h2{
+    font-size: 200%;
+    margin: 10px;
+}
+.section_2_img{
+    margin-top: 25%;
+}
+.section_2 img{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+
+

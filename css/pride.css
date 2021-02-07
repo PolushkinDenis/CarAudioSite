@@ -1,0 +1,126 @@
+.header{
+    position: relative;
+}
+
+.pride{
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+.zagolovok h1{
+    font-size: 300%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.pride_about_1{
+    margin-left: 5%; 
+}
+.pride_about_1 p{
+    width: 120%;
+    font-size: 150%;
+}
+
+.section_1_text_1{
+    /* text-align: center; */
+    margin-left: 35%;
+
+    margin-bottom: 3%;
+    font-size: 150%;
+}
+.section_1_text_2{
+    /* text-align: center; */
+    margin-left: 35%;
+    margin-bottom: 3%;
+    font-size: 150%;
+}
+.pride_about_2{
+    width: 60%;
+    font-size: 150%;
+}
+
+.section_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 50ch;
+    background-color: black;
+    background-image: url(../img/pride_logo_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 95% top;
+}
+.section_1 img{
+    margin-top: 10%;
+    width: 80%;
+}
+.pride_about_1{
+    width: 50%;
+    height: 50%;
+
+    border-radius: 10%;
+}
+
+.section_2{
+    min-height: 80ch;
+    background-image: url(../img/fon_11.jpg);
+    background-repeat: repeat-x;
+    background-position: right;
+}
+.pride_about_2{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: 50%;
+    
+}
+.section_4{
+    background-color: white;
+    min-height: 60ch;
+    text-align: center;
+
+    color: black;
+}
+.section_4_position{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 27%;
+    text-align: center;
+}
+.section_4_text_1 p{
+    font-size: 200%;
+}
+.section_4_text_1 h3{
+    font-size: 150%;
+}
+.section_5{
+    background-color: white;
+    color: black;
+}
+.section_5_text{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 30%;
+    font-size: 200%;
+}
+.component{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 70ch;
+
+}
+.section_5 img{
+    margin-top: 6%;
+    position: absolute;
+    width: 30%;
+}
+
+.component_1_text {
+    width: 25%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.component_1_text_1 p{
+    margin: 5px 5px;
+    font-size: 150%;
+}

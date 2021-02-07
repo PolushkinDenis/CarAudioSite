@@ -1,0 +1,87 @@
+.alfard{
+    background-color: black;
+}
+
+.section_alf_1{
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-flex;
+    margin-top: 60px;
+}
+.section_1{
+    color: white;
+    min-height: 60ch;
+    background-color: black;
+    
+}
+.avatar_img{
+    margin-left: 15%;
+}
+.avatar_text{
+    width: 90%;
+    margin: 0 0 3% 5%;
+    font-size: 150%;
+}
+.avatar_text h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.section_2{
+    color: white;
+    min-height: 60ch;
+    background-color: black;
+    
+}
+.section_3{
+    color: white;
+    min-height: 60ch;
+    background-color: black;
+    
+}
+.avatar_img{
+    margin-left: 15%;
+}
+.avatar_text{
+    width: 90%;
+    margin: 0 0 3% 5%;
+    font-size: 150%;
+}
+.avatar_text h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.section_4{
+    color: white;
+    min-height: 80ch;
+    background-image: url(../img/fon_13.jpg);
+    background-position: 20%;
+}
+.products_text{
+    margin-left: 20%;
+}
+.products_text h2{
+    font-size: 200%;
+}
+.products_table{
+    margin-top: 6%;
+    width: 60%;
+}
+.products_table img{
+    width: 50%;
+}
+.marki_alfard{
+    display: grid;
+}
+.table_1{
+    width: 90%;
+}
+.table_1 img{
+    width: 100%;
+}
+
+
+.usel img{
+    display: inline-block;
+}

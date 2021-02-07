@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Контакты</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+
+    <script src="./js/header.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/dataTime.js"></script>
+
+    
+    <!-- <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>  -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="main">
+            <a class="logo" href="./index.html">Главная</a>
+        </div>
+        <div class="links">
+            <ul class="headerUrl">
+                <li class="mega-menu"><label><input type="checkbox" id="megamenu"
+                            onchange="fun1()">Производители</label>
+                    <div class="link-proizvoditeli" id="linkproizvoditeli">
+                        <ul class="ul-proizvoditeli">
+                            <li><a href="Alfard.html"><img src="./img/proizvoditel_1.1.jpg" alt="DeafBonce"></a></li>
+                            <li><a href="Pride.html"><img src="./img/proizvoditel_2.1.jpg" alt="Pride"></a></li>
+                            <li><a href="Ural.html"><img src="./img/proizvoditel_3.jpg" alt="Ural"></a></li>
+                        </ul>
+                    </div>
+                    </a>
+                </li>
+                <li><a href="./Serviсes.html">Сервисы</a></li>
+                <li><a href="./Contact.html">Контакты</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <div class="images_contact">
+            <img src="./img/contact_1.png">
+        </div>
+        <div class="form">
+            <div class="form_message">
+                <div class="hello">
+                    <p id="hello"></p>
+                </div>
+                <p class="qwe">Задайте интересующий вопрос</p>
+                <div class="name_input">
+                    <i class="user_icon"></i>
+                    <input type="text" placeholder="Имя" name="name" id="name" onblur="checkName();" onfocus="no_error_name();">
+                    <label class="error_name" id="error_name">Допустимы только символы кириллици</label>
+                </div>
+                <div class="name_input">
+                    <i class="email_icon"></i>
+                    <input type="email" placeholder="E-mail" name="email" id="email" onblur="checkEmail();" onfocus="no_error_email();">
+                    <label class="error_mail" id="error_mail">Неверно указан адрес почты</label>
+                </div>
+                <div class="name_input">
+                    <i class="text_icon"></i>
+                    <input type="text" placeholder="+79097770777" name="phone" id="phone" onblur="checkPhone();" onfocus="no_error_phone();">
+                    <label class="error_phone" id="error_phone">Неверный формат телефона</label>
+                </div>
+                <div class="name_input">
+                    <i class="text_icon"></i>
+                    <input type="text" placeholder="Сообщение" name="message_text" id="message_text">
+                </div>
+            </div>
+            <div class="form_button">
+                <input type="submit" value="Отправить" class="enter_message" id="enter_message" onclick="checkForm();">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="map" id="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ace320ad5a2bda8c8b05de20ae3a865a4215d85f957785e93d5273da35422731e&amp;width=1300&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+
+    </div>
+
+    <footer class="footer_1">
+        <div class="vk">
+            <P>Контакты: </P>
+            <a href="https://vk.com/denispolushkin" target="_blank"><img src="./img/vk.png" alt="VK" /></a>
+            <a href="https://www.youtube.com/channel/UCvYauFvNOQZ-6O2QnUSdGug" target="_blank"><img
+                    src="./img/youtube.png" alt="VK" /></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
